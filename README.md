@@ -1,2 +1,6 @@
 # hello-world
-My first repository :)
+
+This is my first repository :)
+
+I've started learning HTML and CSS so still I am a noob!
+I hope to learn fast and be the best!
