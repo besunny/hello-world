@@ -1,0 +1,137 @@
+YENcss
+
+* {
+margin: 0;
+padding: 0;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+body {
+  background-color: #F0EEEE;
+  font-family: verdana, Geneva, Sans-serif;
+  }
+
+a {text-decoration: none;}
+
+h3{
+ margin: 10px 5px;
+ padding-bottom:10px;
+ border-bottom: 1px solid gray;
+ 
+}
+
+#container {
+  background-color: #FFF;
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #000;
+}
+
+header li {
+  list-style-type: none;
+  float: left;
+  font-family: verdana;
+}
+
+#htop {
+  background-color: #000;
+  height: 100px;
+}
+
+  #logo{
+    color: #FFF;
+    font-family: courier;
+    font-size: 30pt;
+    letter-spacing: 3px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    }
+
+#htop nav ul {float: right;}
+#htop nav a {
+  color: #FFF;
+  margin-right: 5px;
+  line-height: 80px;
+  display: block;
+  padding: 0 10px;
+  }
+
+#htop nav a:hover{background-color: #2B95D3;}
+
+#hbot {
+  background-color: #F8F8F8;
+  height: 50px;
+}
+
+#hbot nav a {
+  color: #000;
+  line-height: 50px;
+  font-weight: bold;
+  font-family: georgia;
+  margin-left: 15px;
+  }
+
+#hbot nav a:hover {color: #2B95D3;}
+
+main {
+  background-color: #FFF;
+  width: 630px;
+  float: left;
+}
+
+main section {
+  width: 290px;
+  float: left;
+  margin-right: 10px;
+}
+
+main section figure {
+  position: relative;
+}
+
+main section figure figcaption {
+  background-color: rgba(0,0,0,0.8);
+  color: #fff;
+  position: absolute;
+  height: 60px;
+  bottom: 0px;
+  padding: 5px;
+}
+
+main section p { font-size: smaller;
+margin-left: 30px;}
+aside {
+  background-color: #FFF;
+  width: 330px;
+  float: right;
+  height: 
+}
+
+aside li {
+  list-style-type: none;
+  margin-top: 6px;
+   }
+
+aside li p{
+  font-size: smaller;
+  color: #B7B7B7;
+  } 
+aside li img {
+  float:left;
+  margin: 0 10px 10px 0;
+  }
+
+footer{
+  height: 60px;
+  text-align: center;
+  line-height: 60px;
+  font-family: verdana;
+  font-size: 10px;
+  clear: both;
+}
